@@ -17,8 +17,35 @@
   </head>
   <body>
     <div class="container">
-      <h1>Weather App</h1>
-      <script src="src/app.js"></script>
+      <div class="weather-app">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="src/sun.png" id="main-image" />
+            <h1>Croydon</h1>
+            <ul>
+              <li>Wednesday 07:00</li>
+              <li>Partly cloudy</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h2>22°C | °F</h2>
+            <ul>
+              <li>Feels like: 22°C</li>
+              <li>Humidity: 2%</li>
+              <li>Wind: 4mph</li>
+            </ul>
+          </div>
+          <small>
+            <a
+              href="https://github.com/danielleingram/vanilla-weather-app"
+              target="_blank"
+              >Open-source code</a
+            >
+            by Dani Ingram
+          </small>
+        </div>
+        <script src="src/app.js"></script>
+      </div>
     </div>
   </body>
 </html>
