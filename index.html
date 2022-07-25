@@ -14,6 +14,7 @@
     />
     <link rel="stylesheet" href="src/style.css" />
     ;
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>Weather App</title>
   </head>
   <body>
@@ -26,16 +27,16 @@
               <h1>Croydon</h1>
               <ul class="date-and-time">
                 <li>Wednesday 07:00</li>
-                <li>Partly cloudy</li>
+                <li id="description"></li>
               </ul>
             </div>
             <div class="col-6">
               <h2>22</h2>
               <span class="temperature-unit">°C | °F</span>
               <ul>
-                <li>Feels like: 22°C</li>
-                <li>Humidity: 2%</li>
-                <li>Wind: 4mph</li>
+                <li>Feels like: <span id="feels-like"></span>°C</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span>mph</li>
               </ul>
             </div>
           </div>
